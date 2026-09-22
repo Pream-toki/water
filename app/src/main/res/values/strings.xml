@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">water</string>
+
+    <!-- Reminders -->
+    <string name="reminder_channel_name">Water reminders</string>
+    <string name="reminder_channel_description">Quiet, occasional nudges to drink water</string>
+    <string name="reminder_title">Time for a glass of water?</string>
+    <string name="reminder_body">Tap when you\'ve had one. No rush.</string>
+    <string name="reminder_action_i_drank">I Drank 💧</string>
+
+    <!-- Widgets -->
+    <string name="widget_compact_label">water · compact</string>
+    <string name="widget_compact_description">Today\'s count with a one-tap log button</string>
+    <string name="widget_medium_label">water · medium</string>
+    <string name="widget_medium_description">Today\'s count, last drink, and your week</string>
+    <string name="widget_log_one">+1</string>
+    <string name="widget_log_water">+1 Water</string>
+    <string name="widget_last_at">Last: %1$s</string>
+    <string name="widget_drinks_today">%1$d drinks</string>
+    <string name="widget_one_drink_today">1 drink</string>
+</resources>

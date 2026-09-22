@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Debug-build-only overlay: lets `adb shell am broadcast` drive ReminderReceiver
+    so reminder delivery can be exercised on a device without waiting for a slot.
+    Release builds never see this — the main manifest keeps the receiver unexported.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <receiver
+            android:name=".notify.ReminderReceiver"
+            android:exported="true"
+            tools:replace="android:exported" />
+    </application>
+</manifest>
