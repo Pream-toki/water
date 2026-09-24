@@ -101,3 +101,11 @@ adb shell am broadcast -n com.water.app/.notify.ReminderReceiver
 Release builds do not allow this. Also useful to know: Glance widget rows hold
 at most 10 children, so keep widget rows short (the week row here wraps each
 dot and its spacing into a single child).
+
+## Screenshots
+
+TODO: add screenshots here (drag an image file onto this page on github.com to upload it)
+
+## License
+
+MIT — see [LICENSE](LICENSE).
